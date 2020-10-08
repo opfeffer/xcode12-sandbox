@@ -1,6 +1,6 @@
-#  Xcode 12 Sandbox
+#  Xcode 12 Sandbox 
 
-Sandbox app to surface and investigate issues with CocoaPods test specs in combination with Jenkins and SSH sessions.
+Sandbox app to surface and investigate issues with CocoaPods test specs in combination with Jenkins and SSH sessions. Feedback filed (ID: **FB8784935**).
 
 ### Project Setup
 
