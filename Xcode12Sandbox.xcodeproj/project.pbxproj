@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C024C3699122B463DFC42F4 /* Pods_Xcode12SandboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1FA288435AA7C8444DE88 /* Pods_Xcode12SandboxTests.framework */; };
+		37262CE5B57367F3EB4433B1 /* Pods_Xcode12Sandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594C0ACBE27C583878E517B /* Pods_Xcode12Sandbox.framework */; };
 		51751D7F252EA5E300B08071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51751D7E252EA5E300B08071 /* AppDelegate.swift */; };
-		51751D81252EA5E300B08071 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51751D80252EA5E300B08071 /* SceneDelegate.swift */; };
 		51751D83252EA5E300B08071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51751D82252EA5E300B08071 /* ViewController.swift */; };
 		51751D86252EA5E300B08071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51751D84252EA5E300B08071 /* Main.storyboard */; };
 		51751D88252EA5E400B08071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51751D87252EA5E400B08071 /* Assets.xcassets */; };
 		51751D8B252EA5E400B08071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51751D89252EA5E400B08071 /* LaunchScreen.storyboard */; };
 		51751D96252EA5E400B08071 /* Xcode12SandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51751D95252EA5E400B08071 /* Xcode12SandboxTests.swift */; };
-		51751DA1252EA5E400B08071 /* Xcode12SandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51751DA0252EA5E400B08071 /* Xcode12SandboxUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,19 +25,14 @@
 			remoteGlobalIDString = 51751D7A252EA5E300B08071;
 			remoteInfo = Xcode12Sandbox;
 		};
-		51751D9D252EA5E400B08071 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51751D73252EA5E300B08071 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 51751D7A252EA5E300B08071;
-			remoteInfo = Xcode12Sandbox;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235C5309CCB26DA3CF471BA0 /* Pods-Xcode12Sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode12Sandbox.debug.xcconfig"; path = "Target Support Files/Pods-Xcode12Sandbox/Pods-Xcode12Sandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		2EF0212C67109C99127093BE /* Pods-Xcode12SandboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode12SandboxTests.debug.xcconfig"; path = "Target Support Files/Pods-Xcode12SandboxTests/Pods-Xcode12SandboxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4855ED26E91B4241594981BF /* Pods-Xcode12Sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode12Sandbox.release.xcconfig"; path = "Target Support Files/Pods-Xcode12Sandbox/Pods-Xcode12Sandbox.release.xcconfig"; sourceTree = "<group>"; };
 		51751D7B252EA5E300B08071 /* Xcode12Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xcode12Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51751D7E252EA5E300B08071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51751D80252EA5E300B08071 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		51751D82252EA5E300B08071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51751D85252EA5E300B08071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51751D87252EA5E400B08071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,9 +41,10 @@
 		51751D91252EA5E400B08071 /* Xcode12SandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xcode12SandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51751D95252EA5E400B08071 /* Xcode12SandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode12SandboxTests.swift; sourceTree = "<group>"; };
 		51751D97252EA5E400B08071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51751D9C252EA5E400B08071 /* Xcode12SandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xcode12SandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51751DA0252EA5E400B08071 /* Xcode12SandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode12SandboxUITests.swift; sourceTree = "<group>"; };
-		51751DA2252EA5E400B08071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517B7E72252EAA490054520D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		66348D87B093792B4EF1FED2 /* Pods-Xcode12SandboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xcode12SandboxTests.release.xcconfig"; path = "Target Support Files/Pods-Xcode12SandboxTests/Pods-Xcode12SandboxTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBB1FA288435AA7C8444DE88 /* Pods_Xcode12SandboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xcode12SandboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D594C0ACBE27C583878E517B /* Pods_Xcode12Sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xcode12Sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37262CE5B57367F3EB4433B1 /* Pods_Xcode12Sandbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,26 +60,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51751D99252EA5E400B08071 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1C024C3699122B463DFC42F4 /* Pods_Xcode12SandboxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084B9C60495F20585D4C6568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				235C5309CCB26DA3CF471BA0 /* Pods-Xcode12Sandbox.debug.xcconfig */,
+				4855ED26E91B4241594981BF /* Pods-Xcode12Sandbox.release.xcconfig */,
+				2EF0212C67109C99127093BE /* Pods-Xcode12SandboxTests.debug.xcconfig */,
+				66348D87B093792B4EF1FED2 /* Pods-Xcode12SandboxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		51751D72252EA5E300B08071 = {
 			isa = PBXGroup;
 			children = (
+				517B7E72252EAA490054520D /* README.md */,
 				51751D7D252EA5E300B08071 /* Xcode12Sandbox */,
 				51751D94252EA5E400B08071 /* Xcode12SandboxTests */,
-				51751D9F252EA5E400B08071 /* Xcode12SandboxUITests */,
 				51751D7C252EA5E300B08071 /* Products */,
+				084B9C60495F20585D4C6568 /* Pods */,
+				573774ED7F6058C3176B7A70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +95,6 @@
 			children = (
 				51751D7B252EA5E300B08071 /* Xcode12Sandbox.app */,
 				51751D91252EA5E400B08071 /* Xcode12SandboxTests.xctest */,
-				51751D9C252EA5E400B08071 /* Xcode12SandboxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				51751D7E252EA5E300B08071 /* AppDelegate.swift */,
-				51751D80252EA5E300B08071 /* SceneDelegate.swift */,
 				51751D82252EA5E300B08071 /* ViewController.swift */,
 				51751D84252EA5E300B08071 /* Main.storyboard */,
 				51751D87252EA5E400B08071 /* Assets.xcassets */,
@@ -119,13 +121,13 @@
 			path = Xcode12SandboxTests;
 			sourceTree = "<group>";
 		};
-		51751D9F252EA5E400B08071 /* Xcode12SandboxUITests */ = {
+		573774ED7F6058C3176B7A70 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				51751DA0252EA5E400B08071 /* Xcode12SandboxUITests.swift */,
-				51751DA2252EA5E400B08071 /* Info.plist */,
+				D594C0ACBE27C583878E517B /* Pods_Xcode12Sandbox.framework */,
+				CBB1FA288435AA7C8444DE88 /* Pods_Xcode12SandboxTests.framework */,
 			);
-			path = Xcode12SandboxUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51751DA5252EA5E400B08071 /* Build configuration list for PBXNativeTarget "Xcode12Sandbox" */;
 			buildPhases = (
+				01496CD9AC9DFB40491C490B /* [CP] Check Pods Manifest.lock */,
 				51751D77252EA5E300B08071 /* Sources */,
 				51751D78252EA5E300B08071 /* Frameworks */,
 				51751D79252EA5E300B08071 /* Resources */,
+				8748B3837903C92D375ED298 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51751DA8252EA5E400B08071 /* Build configuration list for PBXNativeTarget "Xcode12SandboxTests" */;
 			buildPhases = (
+				5AC281D7068D5ED80BD3B5C0 /* [CP] Check Pods Manifest.lock */,
 				51751D8D252EA5E400B08071 /* Sources */,
 				51751D8E252EA5E400B08071 /* Frameworks */,
 				51751D8F252EA5E400B08071 /* Resources */,
@@ -166,24 +171,6 @@
 			productReference = 51751D91252EA5E400B08071 /* Xcode12SandboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		51751D9B252EA5E400B08071 /* Xcode12SandboxUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51751DAB252EA5E400B08071 /* Build configuration list for PBXNativeTarget "Xcode12SandboxUITests" */;
-			buildPhases = (
-				51751D98252EA5E400B08071 /* Sources */,
-				51751D99252EA5E400B08071 /* Frameworks */,
-				51751D9A252EA5E400B08071 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				51751D9E252EA5E400B08071 /* PBXTargetDependency */,
-			);
-			name = Xcode12SandboxUITests;
-			productName = Xcode12SandboxUITests;
-			productReference = 51751D9C252EA5E400B08071 /* Xcode12SandboxUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +184,6 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					51751D90252EA5E400B08071 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 51751D7A252EA5E300B08071;
-					};
-					51751D9B252EA5E400B08071 = {
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = 51751D7A252EA5E300B08071;
 					};
@@ -221,7 +204,6 @@
 			targets = (
 				51751D7A252EA5E300B08071 /* Xcode12Sandbox */,
 				51751D90252EA5E400B08071 /* Xcode12SandboxTests */,
-				51751D9B252EA5E400B08071 /* Xcode12SandboxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,14 +226,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51751D9A252EA5E400B08071 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01496CD9AC9DFB40491C490B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xcode12Sandbox-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		5AC281D7068D5ED80BD3B5C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xcode12SandboxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8748B3837903C92D375ED298 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xcode12Sandbox/Pods-Xcode12Sandbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xcode12Sandbox/Pods-Xcode12Sandbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xcode12Sandbox/Pods-Xcode12Sandbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51751D77252EA5E300B08071 /* Sources */ = {
@@ -260,7 +299,6 @@
 			files = (
 				51751D83252EA5E300B08071 /* ViewController.swift in Sources */,
 				51751D7F252EA5E300B08071 /* AppDelegate.swift in Sources */,
-				51751D81252EA5E300B08071 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +310,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51751D98252EA5E400B08071 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51751DA1252EA5E400B08071 /* Xcode12SandboxUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -287,11 +317,6 @@
 			isa = PBXTargetDependency;
 			target = 51751D7A252EA5E300B08071 /* Xcode12Sandbox */;
 			targetProxy = 51751D92252EA5E400B08071 /* PBXContainerItemProxy */;
-		};
-		51751D9E252EA5E400B08071 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 51751D7A252EA5E300B08071 /* Xcode12Sandbox */;
-			targetProxy = 51751D9D252EA5E400B08071 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,11 +458,13 @@
 		};
 		51751DA6252EA5E400B08071 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235C5309CCB26DA3CF471BA0 /* Pods-Xcode12Sandbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Xcode12Sandbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +478,13 @@
 		};
 		51751DA7252EA5E400B08071 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4855ED26E91B4241594981BF /* Pods-Xcode12Sandbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Xcode12Sandbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +498,7 @@
 		};
 		51751DA9252EA5E400B08071 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF0212C67109C99127093BE /* Pods-Xcode12SandboxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +520,7 @@
 		};
 		51751DAA252EA5E400B08071 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66348D87B093792B4EF1FED2 /* Pods-Xcode12SandboxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,44 +537,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xcode12Sandbox.app/Xcode12Sandbox";
-			};
-			name = Release;
-		};
-		51751DAC252EA5E400B08071 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xcode12SandboxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sandbox.Xcode12SandboxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Xcode12Sandbox;
-			};
-			name = Debug;
-		};
-		51751DAD252EA5E400B08071 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xcode12SandboxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sandbox.Xcode12SandboxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Xcode12Sandbox;
 			};
 			name = Release;
 		};
@@ -573,15 +566,6 @@
 			buildConfigurations = (
 				51751DA9252EA5E400B08071 /* Debug */,
 				51751DAA252EA5E400B08071 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		51751DAB252EA5E400B08071 /* Build configuration list for PBXNativeTarget "Xcode12SandboxUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51751DAC252EA5E400B08071 /* Debug */,
-				51751DAD252EA5E400B08071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
